@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Hello World Azure Template</title>
-</head>
-<body>
-<h1>Azure Static Website Template</h1>
-<p>This page is a sample page for a “Hello World” Azure Static Website Template. The page contains an HTML validation warning. 
-Can you find and fix that warning? What about the curly quotes? Do they current work in all browsers? Can you fix the curly 
-quotes also? And what about proper indenting?</p>
-</body>
+    <head>
+        <title>Bob Ross Dice Roller</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" type="image/x-icon" href="images/bob.png">
+    </head>
+    <body onload="roll()"  >
+        <div class="content">
+            <h1>Bob Ross: Art of Chill Game Dice Roller</h1>
+            <br>
+            <br>
+            <p>This page is a sample page for a “Hello World” Azure Static Website Template. The page contains an HTML validation warning. 
+            Can you find and fix that warning? What about the curly quotes? Do they current work in all browsers? Can you fix the curly 
+            quotes also? And what about proper indenting?<a href="https://www.buffalolib.org/sites/default/files/gaming-unplugged/inst/Bob%20Ross%20Art%20of%20Chill%20Game%20Instructions.pdf">Here.</a></p>
+            
+            <br>
+            <div class="dice">
+                <img id="dice" src="images/bob.png" alt="Bob Ross Dice">
+            </div>
+            <br>
+            <button id="roll" onclick="roll()" autofocus>RE-ROLL</button>
+            <br>
+            <br>
+            <p>All Likeness and Intellectual Property owned by Bob Ross INC</p>
+        </div>
+        <script src="index.js"></script>
+    </body>
 </html>
