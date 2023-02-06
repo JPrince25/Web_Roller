@@ -27,3 +27,8 @@ button{
     height:auto;
     font-size: x-large;
 }
+p.content{
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: large;
+}
